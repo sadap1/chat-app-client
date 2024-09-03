@@ -6,7 +6,7 @@ import SignIn from './pages/SignIn'
 import axios from 'axios'
 
 export default function App() {
-  axios.defaults.baseURL = 'http://localhost:3000';
+  axios.defaults.baseURL = 'http://localhost:3000'||'https://chat-app-server-7su1.onrender.com';
   axios.defaults.withCredentials = true;
   return (
     <BrowserRouter>
